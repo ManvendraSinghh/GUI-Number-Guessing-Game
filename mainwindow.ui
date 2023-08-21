@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="heading">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>20</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Guess The Number !</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hint">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>250</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string> Here you will get all related Hints to guess </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="guessbutton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>150</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 0);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Guess</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startoverbutton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>150</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Start Over</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>150</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 127);
+background-color: rgb(130, 152, 155);
+color : rgb(255,255,255);</string>
+    </property>
+    <property name="maxLength">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hint_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Enter the Number between 1-100 below to start Guessing</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
